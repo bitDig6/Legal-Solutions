@@ -23,6 +23,7 @@
                       clifford: '#da373d',
                       'button-primary-bg': '#B68C5A',
                       'dark-03': '#707070',
+                      'dark-05': '#CFCFCF',
                     }
                   }
                 }
@@ -445,7 +446,7 @@
             <div class="card bg-gray-100 rounded-none border-r border-b border-gray-200">
               <figure class="px-10 pt-10">
                 <img
-                  src="images/address.png" class="rounded-xl" />
+                  src="images/location.png" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title">Address</h2>
@@ -496,8 +497,48 @@
             </form>
         </div>
       </section>
-
     </main>
-    <footer></footer>
+    <!-- the footer -->
+    <footer class="footer space-x-4 bg-black text-dark-05 text-base p-12">
+      <div>
+        <img src="images/logo.png" alt="" class="mb-4">
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+        </p>
+      </div>
+      <nav class="space-y-2">
+        <h6 class="font-eb-garamond text-2xl text-white font-extrabold mb-6">Useful Link</h6>
+        <a class="link link-hover">Homes</a>
+        <a class="link link-hover">About Us</a>
+        <a class="link link-hover">Cases</a>
+        <a class="link link-hover">Blog</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <nav class="space-y-2">
+        <h6 class="font-eb-garamond text-2xl text-white font-extrabold mb-6">Contact Now</h6>
+        <a class="link link-hover">
+          555 4th 5t NW, Washington <br>DC 20530, United States
+        </a>
+        <a class="link link-hover">
+          +88 01750 000 000 <br> +88 01750 000 000
+        </a>
+        <a class="link link-hover">
+          info@gmail.com <br> info@gmail.com
+        </a>
+      </nav>
+      <form>
+        <h6 class="font-eb-garamond text-2xl text-white font-extrabold mb-6">Subscribe</h6>
+        <fieldset class="form-control w-80">
+          <p class="mb-6">Subscribe for our latest news and articles. We won't send you spam mails.</p>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="Email Address"
+              class="input input-bordered join-item" />
+            <button class="btn border-none bg-button-primary-bg text-white join-item">Subscribe</button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
   </body>
 </html>
